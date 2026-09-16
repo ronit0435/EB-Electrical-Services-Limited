@@ -1,0 +1,6 @@
+{
+  "name": "EB Electrical Services Limited",
+  "description": "Professional NICEIC registered electricians in London. 24/7 emergency electrical services, domestic, commercial, smart home and Hive installations across South West London.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
