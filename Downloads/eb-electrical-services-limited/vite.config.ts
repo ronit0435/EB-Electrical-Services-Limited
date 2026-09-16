@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/EB-Electrical-Services-Limited/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
