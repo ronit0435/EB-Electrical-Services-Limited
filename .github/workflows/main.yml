@@ -18,6 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: Downloads/eb-electrical-services-limited
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./Downloads/eb-electrical-services-limited/dist
 
   deploy:
     environment:
